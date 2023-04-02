@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.my__guest-background {
+  width: 100%;
+  height: 731px;
+  background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80');
+  background-size: cover;
+  object-fit: cover;
+}
+
+.my__guest-box {
+  margin-top: 60px;
+  padding: 22px 24px;
+  margin-left: 12px;
+  width: 380px;
+  background-color: rgba(174, 175, 172, 0.56);
+}
+
+.guest__box-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.guest__box-subtitle {
+  margin-top: 16px;
+}
+
+.guest__box-text {
+  margin-top: 16px;
+}
+
+.guest__btn {
+  width: 380px;
+  margin-top: 16px;
+  margin-left: 12px;
+}
+
+.my__main-background{
+  background-color: rgba(174, 175, 172, 0.3);
+  height: 82vh;
+}
+
+.formSignUp, .formSignIn label {
+  color: #fff;
+}
+
+.guest__column-right {
+  margin-top: 60px;
+  margin-left: 32px;
+  padding: 24px;
+  width: 100%;
+  display: none;
+}
+
+ul {
+  margin: 12px 0 0 0;
+  padding: 0 0 12px 0;
+  height: 100%;
+  border-bottom: 1px solid #322D22;
+}
+
+li {
+  list-style: none;
+  transition: 0.1s;
+}
+
+li:not(:last-child) {
+  margin-right: 12px;
+}
+
+li:hover {
+  color: #177347;
+}
+
+a {
+  cursor: pointer;
+}
+
+.main__column-left {
+  width: 40%;
+  height: 74vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.main__column-left::-webkit-scrollbar {
+  display: none;
+}
+
+
+.main__column-right {
+  border-left: 1px solid #322D22;
+  width: 100%;
+}
+
+.user__preview {
+  height: 90px;
+  transition: 1s;
+}
+
+.user__preview:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.user__preview-foto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #322D22;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.preview-ref-fio {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.user__card {
+  height: 100%;
+}
+
+.card-ref-title span {
+  font-weight: 600;
+}
+
+.card-ref-fio {
+  display: flex;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card-ref-foto {
+  border: 1px solid #322D22;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  width: 160px;
+  height: 160px;
+}
+
+#card-ref-foto {
+  display: none;
+}
+
+.user__card-events {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.stage-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.message-employe {
+  color: rgba(0, 0, 0, 0.37);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px gainsboro;
+}
+
+
+.white-bg-opacity {
+  background-color: rgba(240, 248, 255, 0.8);
+}
+
+.ico {
+  width: 3vw;
+  height: 3vw;
+}
+
+.person-photo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.person-photo-big {
+  height: 15vh;
+  width: 15vh;
+  border-radius: 30%;
+}
+
+.active {
+  text-shadow: 2px 2px 2px gray;
+}
+
+.active-person {
+  background-color: grey;
+}
+
+.active-person:hover {
+  background-color: grey;
+}
+
+.persons {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.pdf {
+  width: 30px;
+}
+
+.end {
+  height: 73px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Play', sans-serif;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
